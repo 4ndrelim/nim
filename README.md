@@ -11,3 +11,5 @@ git clone https://github.com/4ndrelim/nim.git
 2. Run play.py
     - Play against AI by inputting the pile number and number of objects to remove.
 3. Adjust pre-defined hyperparams at config.py
+
+![nim execution](assets/execution.png)
