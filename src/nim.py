@@ -154,7 +154,7 @@ class NimAI():
 
         # Choose random available action
         if epsilon and random.random() <= self.epsilon:
-            return random.sample(available_actions, 1)[0]
+            return random.sample(list(available_actions), 1)[0]
         
         # Otherwise choose best available action
         best_reward = -math.inf

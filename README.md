@@ -9,8 +9,5 @@ AI learns to play the game with Q-learning.
 git clone https://github.com/4ndrelim/nim.git
 ```
 2. Run play.py
+    - Play against AI by inputting the pile number and number of objects to remove.
 3. Adjust pre-defined hyperparams at config.py
-
-## TODO 
-1. UI interface over winter
-2. Improved algorithm using Deep Q-Learning
